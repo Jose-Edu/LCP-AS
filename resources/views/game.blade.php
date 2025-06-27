@@ -27,11 +27,10 @@
                 <h3 class="text-2xl font-bold">Índice</h3>
                 <div class="bg-gray-600 px-5 mb-8 h-px mt-2 ms-1"></div>
                 <ul class="list-disc ps-5 pb-5 items-stretch">
-                    <li class="my-4">Visão geral</li>
-                    <li class="my-4">Conquistas</li>
-                    <li class="my-4">Guias de platinas</li>
-                    <li class="my-4">Outros guias</li>
-                    <li>Comentários</li>
+                    <li class="my-4"><a href="#visao-geral">Visão geral</a></li>
+                    <li class="my-4"><a href="#conquistas">Conquistas</a></li>
+                    <li class="my-4"><a href="#platina">Guias da platina</a></li>
+                    <li><a href="#guias">Outros guias</a></li>
                 </ul>
             </div>
 
@@ -69,11 +68,442 @@
 
         <div class="w-3/4 bg-gray-800 me-5 p-5">
             <div>
-                <h1 class="font-bold text-4xl mb-5">Visão geral</h1>
+                <h1 id="visao-geral" class="font-bold text-4xl mb-5">Visão geral</h1>
+                <p class="mb-2 ms-3">Elden Ring é um jogo de RPG de ação desenvolvido pela FromSoftware e publicado pela Bandai Namco Entertainment. O jogo é dirigido por Hidetaka Miyazaki e conta com a colaboração do escritor George R. R. Martin.</p>
+                <p class="mb-5 ms-3">Elden Ring possui múltiplos finais, o que significa que você precisará de várias partidas ou usar salvamentos estratégicos para obter todos os troféus relacionados aos finais sem ter que completar o jogo várias vezes do zero.</p>
+                <div class="bg-gray-600 px-5 mb-8 h-px mt-2 ms-1"></div>
+            </div>          
+            
+            <div>
+                <h1 id="conquistas" class="font-bold text-4xl mb-5">Conquistas</h1>
+                <div class="bg-gray-700 m-5 p-5">
+
+                    <div class="flex justify-around">
+                        
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2">Elden Lord</p>
+                            <div class="flex justify-center">
+                                <div class="bg-yellow-500 rounded-full p-3 w-16 h-16 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2">Age of the Stars</p>
+                            <div class="flex justify-center">
+                                <div class="bg-yellow-500 rounded-full p-3 w-16 h-16 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2">Lord of Frenzied Flame</p>
+                            <div class="flex justify-center">
+                                <div class="bg-yellow-500 rounded-full p-3 w-16 h-16 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="bg-gray-600 px-5 mb-8 h-px mt-2 ms-1"></div>
+
+                    <div class="flex justify-around columns-5 mb-8">
+                        
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Shardbearer Godrick</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Shardbearer Radahn</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Shardbearer Morgott</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Shardbearer Rykard</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Shardbearer Malenia</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="flex justify-around columns-5 mb-8">
+                        
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Shardbearer Mohg</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Maliketh the Black Blade</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Hoarah Loux the Warrior</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Dragonlord Placidusax</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">God-Slaying Armament</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="flex justify-around columns-5">
+                        
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Legendary Armaments</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Legendary Ashen Remains</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Legendary Sorceries and Incantations</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Legendary Talismans</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">God-Slaying Armament</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-gray-400 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="bg-gray-600 px-5 mb-8 h-px mt-2 ms-1"></div>
+
+                    <div class="flex justify-around columns-6 mb-8">
+    
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Rennala, Queen of the Full Moon</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Lichdragon Fortissax</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Godskin Duo</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Fire Giant</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Dragonkin Soldier of Nokstella</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Regal Ancestor Spirit</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="flex justify-around columns-6 mb-8">
+    
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Valiant Gargoyles</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Margit, the Fell Omen</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Red Wolf of Radagon</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Godskin Noble</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Magma Wyrm Makar</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Godfrey the First Lord</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="flex justify-around columns-6 mb-8">
+    
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Mohg, the Omen</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Mimic Tear</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Loretta, Knight of the Haligtree</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Astel, Naturalborn of the Void</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Leonine Misbegotten</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Royal Knight Loretta</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="flex justify-around columns-6 mb-8">
+    
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Elemer of the Briar</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Ancestor Spirit</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Commander Niall</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Roundtable Hold</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Great Rune</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{{ url('/articles/1') }}">
+                            <p class="mb-2 text-xs">Erdtree Aflame</p>
+                            <div class=" flex justify-center">
+                                <div class="bg-orange-700 rounded-full p-1 w-8 h-8 flex items-center justify-center">
+                                    <img src="{{ asset('images/icos/ico-trophy.png') }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="bg-gray-600 px-5 mb-8 h-px mt-2 ms-1"></div>
+            </div>
+
+            <div>
+                <h1 id="platina" class="font-bold text-4xl mb-5">Guias da platina</h1>
                 <p class="mb-2">Elden Ring é um jogo de RPG de ação desenvolvido pela FromSoftware e publicado pela Bandai Namco Entertainment. O jogo é dirigido por Hidetaka Miyazaki e conta com a colaboração do escritor George R. R. Martin.</p>
                 <p class="mb-5">Elden Ring possui múltiplos finais, o que significa que você precisará de várias partidas ou usar salvamentos estratégicos para obter todos os troféus relacionados aos finais sem ter que completar o jogo várias vezes do zero.</p>
                 <div class="bg-gray-600 px-5 mb-8 h-px mt-2 ms-1"></div>
             </div>
+
+            <div>
+                <h1 id="guias" class="font-bold text-4xl mb-5">Outros guias</h1>
+                <p class="mb-2">Elden Ring é um jogo de RPG de ação desenvolvido pela FromSoftware e publicado pela Bandai Namco Entertainment. O jogo é dirigido por Hidetaka Miyazaki e conta com a colaboração do escritor George R. R. Martin.</p>
+                <p class="mb-5">Elden Ring possui múltiplos finais, o que significa que você precisará de várias partidas ou usar salvamentos estratégicos para obter todos os troféus relacionados aos finais sem ter que completar o jogo várias vezes do zero.</p>
+            </div>
+
         </div>
     </div>
 @endsection

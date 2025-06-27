@@ -11,4 +11,8 @@ Route::get('/games/1', function () {
     return view('game');
 });
 
+Route::get('/articles/1', function () {
+    return view('text');
+});
+
 require __DIR__.'/auth.php';
