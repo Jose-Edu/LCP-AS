@@ -6,6 +6,7 @@
     <title>Papa platinas</title>
     <link rel="icon" href="{{ asset('images/logo.png') }}" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 </head>
 <body class="dark:bg-gray-900 dark:text-white">
 
@@ -56,5 +57,6 @@
         <a href="{{ url('/') }}"><img src="{{ asset('images/logo.png') }}" alt="" class="h-20"></a>
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </body>
 </html>
