@@ -62,7 +62,7 @@
         <h1 class="flex items-center text-4xl font-extrabold dark:text-white pb-10">
             Recomendados
         </h1>
-        <div class="columns-4">
+        <div class="columns-4 mb-5">
             <div>
                 <div class="max-w-sm bg-white border border-gray-200 shadow-sm dark:bg-gray-800 dark:border-gray-700">
                     <a href="{{ url('/games/1') }}">
@@ -112,8 +112,7 @@
                 </div>
             </div>
         </div>
-        <button type="button" class="mt-5 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">Mais jogos</button>
-        </div>
+        <a href="{{ url("/search") }}" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">Mais jogos</a>
     </div>
 
 @endsection

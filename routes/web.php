@@ -15,4 +15,22 @@ Route::get('/articles/1', function () {
     return view('text');
 });
 
-require __DIR__.'/auth.php';
+Route::get('/search', function () {
+    return view('finder');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/profile', function () {
+    return view('profile');
+});
+
+Route::get('/rankings', function () {
+    return view('rankings');
+});
