@@ -30,7 +30,8 @@
                     <li class="my-4"><a href="#visao-geral">Visão geral</a></li>
                     <li class="my-4"><a href="#conquistas">Conquistas</a></li>
                     <li class="my-4"><a href="#platina">Guias da platina</a></li>
-                    <li><a href="#guias">Outros guias</a></li>
+                    <li class="my-4"><a href="#guias">Outros guias</a></li>
+                    <li><a href="#coments">Comentários</a></li>
                 </ul>
             </div>
 
@@ -628,8 +629,54 @@
                         </a>
                     </div>
                 </div>
+                <div class="bg-gray-600 px-5 mb-8 h-px mt-2 ms-1"></div>
             </div>
 
+            <div>
+                <h1 id="coments" class="font-bold text-4xl mb-5">Comentários</h1>
+
+                <div class="mx-10">
+                    <div class="bg-gray-700 flex itens-center py-5">
+                        <div class="w-1/4 mx-10 flex justify-start items-center">
+                                <div class="border rounded-full bg-gray-400 border-gray-400 p-1">
+                                    <img src="{{ asset('images/logo.png') }}" alt="" class="size-16">
+                                </div>
+                                <span class="ms-2 flex items-center">
+                                    <p class="me-1">
+                                        JulioSpeedRuns
+                                    </p>
+                                    <img src="{{ asset('images/icos/ico-steam.png') }}" alt="" class="size-4">
+                                </span>
+                        </div>
+                        <div class="w-3/4">
+                            <div>
+                                <p class="mt-5">
+                                    Meu jogo favorito!
+                                </p>
+                                <div class="bg-gray-600 px-5 mb-8 h-px mt-2 ms-1"></div>
+                                <div class="flex justify-start items-center">
+                                    <span class="flex justify-start items-center bg-gray-800 p-1 rounded-sm">
+                                        <img src="{{ asset('images/icos/ico-like.png') }}" alt="" class="size-5">
+                                        <p class="ms-1">15</p>
+                                    </span>
+                                    <span class="flex justify-start items-center bg-gray-800 p-1 rounded-sm ms-2 px-2">
+                                        Responder
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="mt-10 border border-gray-600">
+                        <div class="p-5">
+                            <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Digite seu comentário..."></textarea>
+
+                            <button type="button" class="text-white mt-5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-600 px-5 mb-8 h-px mt-2 ms-1"></div>
+            </div>
         </div>
     </div>
 @endsection
